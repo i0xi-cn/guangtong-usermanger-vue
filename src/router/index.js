@@ -1,11 +1,11 @@
-import {createRouter, createWebHashHistory, createWebHistory} from "vue-router";
-import Home from "../views/HomePage.vue";
+import {createRouter, createWebHistory} from "vue-router";
+import HomePage from "../views/HomePage.vue";
 
 const routes = [
     {
         path: '/',
         name: '光通',
-        component: Home,
+        component: HomePage,
     }
 ]
 const router = createRouter({
